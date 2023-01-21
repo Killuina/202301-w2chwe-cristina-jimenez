@@ -1,5 +1,5 @@
-const generateBoard = (columns, rows, elements) =>
+const generateBoard = (columns, rows, cells) =>
   Array(columns)
-    .fill(elements)
-    .map(() => Array(rows).fill(elements));
+    .fill(cells)
+    .map(() => Array(rows).fill(cells));
 export default generateBoard;

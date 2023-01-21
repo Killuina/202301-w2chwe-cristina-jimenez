@@ -2,6 +2,7 @@
   "name": "202301-w2chwe-cristina-jimenez",
   "version": "1.0.0",
   "description": "",
+  "main": "js/index.js",
   "scripts": {
     "test": "jest",
     "test:dev": "jest --watchAll",
