@@ -1,6 +1,6 @@
 class Cell {
   isAlive = Math.random() < 0.1;
-  isALiveNextTurn = false;
+  isAliveNextTurn = false;
   numberOfAliveNeighbors = 0;
 
   die() {
@@ -12,7 +12,7 @@ class Cell {
   }
 
   nextGeneration() {
-    this.isAlive = this.isALiveNextTurn;
+    this.isAlive = this.isAliveNextTurn;
   }
 }
 
