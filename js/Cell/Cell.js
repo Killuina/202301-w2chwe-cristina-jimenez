@@ -1,5 +1,5 @@
 class Cell {
-  isAlive = Math.random() < 0.1;
+  isAlive = Math.random() < 0.15;
   isAliveNextTurn = false;
   numberOfAliveNeighbors = 0;
 
